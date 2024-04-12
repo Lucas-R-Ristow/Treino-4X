@@ -1,0 +1,65 @@
+/* Style for header */
+header {
+    background-color: rgba(200, 168, 94, 0.958) ;
+    text-align: center; /* Center align header content */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+    color: rgb(49, 49, 49);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+
+/* Style for sections */
+section {
+    background-color: rgba(219, 198, 127, 0.958);
+    margin-top: 30px;
+    margin-bottom: 30px; /* Add margin at the bottom of each section */
+    clear: both; /* Clear floating elements */
+    text-align: center; /* Center-align content within the section */
+    color: rgb(49, 49, 49);
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Style for images */
+.Imagens {
+    border: 50px;
+    float: left; /* Float images to the left */
+    margin-top: 20px;
+    margin-right: 20px; /* Add margin to the right of the images to create space between text */
+    margin-left: 20px;
+    margin-bottom: 20px; /* Add margin at the bottom of the images to create vertical space */
+    width: 400px; /* Set a fixed width for the images */
+    height: 400px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified dimensions */
+}
+
+/* Style for lists */
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for list items */
+li {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 10px; /* Add margin at the bottom of each list item */
+}
+
+/* Style for paragraphs */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px; /* Add margin at the bottom of each paragraph */
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.px5_a5Z_O5A-HXIC_PlgKQHaEo?rs=1&pid=ImgDetMain);
+}
